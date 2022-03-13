@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { ContactService } from './service/ContactService';
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
+import { Panel } from 'primereact/panel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import 'primereact/resources/themes/nova/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
+export default class App extends Component {
+  constructor(){
+    super();
+    this.state = {}
+    this.contactService = new ContactService();
+  }
+
+  componentDidMount(){
+    this.contactService.getAll().then(data => this.setState({contacts: data}))
+  }
+
+
+  render() {
+    return (
+      <Panel header="Contactos" style={{width:'80%', margin: '0 auto', marginTop: '20px'}}>
+        <DataTable value={this.state.contacts}>
+          <Column field="id" header="ID"></Column>
+          <Column field="name" header="Nombre"></Column>
+          <Column field="phone" header="Teléfono"></Column>
+          <Column field="email" header="E-mail"></Column>
+          <Column field="dateBirth" header="Fecha de Nacimiento"></Column>
+        </DataTable>
+      </Panel>
+    );
+  }
 }
 
-export default App;
+
