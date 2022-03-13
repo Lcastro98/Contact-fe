@@ -41,10 +41,14 @@ Para poder ver lo realizado debe en un primer lugar realizar los pasos especific
 [Back-end](https://github.com/Lcastro98/Contact)
 
 ## Hecho ✔️
-- Mostrar los contactos almacenados en la base de datos
-![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/images/localhost.JPG?raw=true)
-- Eliminar los contactos (Borrado físico). De click en el usuario a eliminar, seguido de esto de click donde dice Eliminar y por último en Aceptar.
-![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/images/delete.JPG?raw=true)
+
+Mostrar los contactos almacenados en la base de datos
+
+![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/localhost.JPG?raw=true)
+
+Eliminar los contactos (Borrado físico). De click en el usuario a eliminar, seguido de esto de click donde dice Eliminar y por último en Aceptar.
+
+![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/delete.JPG?raw=true)
 
 ## Pendiente ⚠️
 - Crear usuario desde el front-ent (está generando contactos vacíos)
