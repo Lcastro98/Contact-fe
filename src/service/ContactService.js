@@ -1,3 +1,10 @@
+/**
+ * Permite la interacción con el back-end
+ * 
+ * @version 1.00.00 2022-03-13 
+ *
+ * @author Lorena Castro <lcastro0398@gmail.com>
+ */
 
 import axios from 'axios';
 

@@ -88,6 +88,10 @@ export default class App extends Component {
     }
   }
 
+  /**
+   * Permite mostrar los elementos con que interactua el usuario
+   * @returns 
+   */
   render() {
     return (
       <div style={{width:'80%', margin: '0 auto', marginTop: '20px'}}>
