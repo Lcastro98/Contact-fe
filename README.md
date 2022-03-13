@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Agenda de contactos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crud de un sistema que lleva el control de contactos telefónicos, los cuales guardan los siguientes datos:
+1 Nombre completo
+2 Teléfono
+3 Correo electrónico
+4 Fecha de nacimiento
 
-## Available Scripts
+Para ello se ha separado el back-end del front-ent. En este repositorio se encuentra todo lo relacionado con el front-end.
 
-In the project directory, you can run:
+# Front-end
 
-### `npm start`
+## Construido con 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://github.com/facebook/create-react-app).
+- [Primereact](https://www.primefaces.org/primereact/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preparando el entorno 🔧
 
-### `npm test`
+Para empezar clone el repositorio en su computador:
+```plain
+git clone https://github.com/Lcastro98/Contact-fe.git
+```
+Abra el archivo en visual studio code y con una nueva terminal instale las dependencias con el siguiente comando:
+```plain
+npm install
+```
+ejecute el siguiente comando:
+```plain
+npm start
+```
+Esto abrirá el siguiente puerto [http://localhost:3000](http://localhost:3000) para ver en su navegador la aplicación.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La página se irá recargando a medida que realice cambios.\
 
-### `npm run build`
+Así mismo, podrá ver errores en la consola.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Hecho ✔️
+- Mostrar los contactos almacenados en la base de datos
+![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/images/localhost.JPG?raw=true)
+- Eliminar los contactos (Borrado físico). De click en el usuario a eliminar, seguido de esto de click donde dice Eliminar y por último en Aceptar.
+![alt text](https://github.com/Lcastro98/Contact-fe/blob/main/public/images/delete.JPG?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pendiente ⚠️
+- Crear usuario desde el front-ent (está generando contactos vacíos)
+- Editar contacto desde el front-ent
+- Borrado lógico
 
-### `npm run eject`
+## Para aprender más de React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[React documentation](https://reactjs.org/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
