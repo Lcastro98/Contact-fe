@@ -53,3 +53,5 @@ Así mismo, podrá ver errores en la consola.
 
 [React documentation](https://reactjs.org/).
 
+---
+⌨️ con ❤️ por [Lorena Castro](https://github.com/Lcastro98) ✌
